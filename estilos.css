@@ -1,0 +1,104 @@
+/*creo las fuentes locales que descargue de google fonts*/
+@font-face {
+    font-family: rokkitt;
+    src: url(Rokkitt-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: sen;
+    src: url(Sen-Regular.ttf);
+}
+@font-face {
+    font-family: minecraft;
+    src: url(Minecraft.ttf);
+}
+
+/*aca cambio temas de letras, colores de fondo, etc*/   
+#titulo{
+    color: rgb(24, 91, 23);
+    font-family: sen;
+    text-align: center;
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+}
+.tc{
+    font-family: sen;
+    background-color:beige;
+    margin-left: 5%;
+    margin-right: 5%;
+}  
+html{
+    cursor: url(cursor.cur), auto;
+}
+h2{
+    margin-inline-start: 5%;
+}
+p{
+    margin-inline-start: 50%;
+}
+body{
+    background-color: rgba(155, 184, 144, 0.703);
+}
+
+
+/*aca hago cambios a la imagen-boton de mi novia*/
+#ellie{
+    width: 90%;
+}   
+#imageboton{
+    margin: 5% 5% 5% 5%;
+    display: block;
+}   
+aside{
+    width: 50%;
+    float: right;
+
+}
+.songshow-chords{
+    width: 40%;
+    margin: 0% 5% 0% 5%;
+}
+
+
+
+/*honguitos y acordes!!!!*/
+#ho{
+    width: 20%;
+    margin: 0% 40% 0% 40%;
+}   
+.chord{
+    width: 13%;
+    margin: 1% 1% 1% 1%;
+}
+#csha{
+    margin-inline-start: 5%;
+}
+.tab{
+    width: 50%;
+    margin: 1% 10% 1% 10%;
+}
+#intro{
+    width: 20%;
+}
+
+
+
+p.song span {
+    display: none;
+}
+p.songshow-chords p {
+    line-height:2.3em;
+    margin-bottom:2em;
+}
+p.songshow-chords span {
+    position: relative;
+    top: -1em;
+    display:inline-block;
+    width: 0;
+    overflow:visible;
+    text-shadow:#CCC -1px 1px;
+    color:rgb(18, 82, 22);
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
