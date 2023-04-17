@@ -7,10 +7,6 @@
     font-family: sen;
     src: url(Sen-Regular.ttf);
 }
-@font-face {
-    font-family: minecraft;
-    src: url(Minecraft.ttf);
-}
 
 /*aca cambio temas de letras, colores de fondo, etc*/   
 #titulo{
@@ -36,33 +32,9 @@ p{
     margin-inline-start: 50%;
 }
 body{
-    background-color: rgb(60, 112, 41);
-}
-#fin{
-    font-family: sen;
-    background-color:beige;
-    padding: 10% 25% 10% 25%;
-    width: 40%;
-    text-align: center;
-    margin: 0% 5% 5% 5%;
+    background-color: rgb(30, 56, 21);
 }
 
-
-
-/*aca hago cambios a la imagen-boton de mi novia*/
-#ellie{
-    width: 60%;
-}   
-#imageboton{
-    margin: 20% 0% 20% 0%;
-    display: block;
-
-}   
-aside{
-    width: 30%;
-    float:right;
-
-}
 
 
 /*honguitos y acordes!!!!*/
@@ -80,6 +52,18 @@ aside{
 }
 #csha{
     margin-inline-start: 5%;
+}
+
+
+/*aca hago cambios a la imagen-boton de mi novia*/
+#costado{
+    width: 60%;
+    margin: 20% 0% 20% 0%;
+    display: block;
+}   
+#hongo{
+    width: 30%;
+    float:right;
 }
 .tab{
     width: 50%;
@@ -108,6 +92,56 @@ p.songshow-chords span {
     color:rgb(18, 82, 22);
     font-weight:bold;
     font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*letra y video*/
+#video{
+    width: 40%;
+    float:right;
+}
+#takeonme{
+    width: 80%;
+    margin: 20% 0% 20% 0%;
+}
+#letra{
+    width: 44%;
+    line-height: 160%;
+    margin: 4%;
+}
+
+/*fin!!*/
+.myButton {
+	box-shadow:inset -1px -1px 0px -50px #a6827e;
+	background:linear-gradient(to bottom, #47311b 5%, #634b30 100%);
+	background-color:#47311b;
+	border-radius:8px;
+	border:3px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:2px 2px 0px #000000;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #47311b 100%);
+	background-color:#634b30;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+    
+}
+#fin{
+    font-family: sen;
+    background-color:beige;
+    padding: 10% 25% 10% 25%;
+    width: 40%;
+    text-align: center;
+    margin: 0% 5% 5% 5%;
 }
 
 
