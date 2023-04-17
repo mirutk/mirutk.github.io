@@ -36,28 +36,33 @@ p{
     margin-inline-start: 50%;
 }
 body{
-    background-color: rgba(155, 184, 144, 0.703);
+    background-color: rgb(60, 112, 41);
 }
+#fin{
+    font-family: sen;
+    background-color:beige;
+    padding: 10% 25% 10% 25%;
+    width: 40%;
+    text-align: center;
+    margin: 0% 5% 5% 5%;
+}
+
 
 
 /*aca hago cambios a la imagen-boton de mi novia*/
 #ellie{
-    width: 90%;
+    width: 60%;
 }   
 #imageboton{
-    margin: 5% 5% 5% 5%;
+    margin: 20% 0% 20% 0%;
     display: block;
+
 }   
 aside{
-    width: 50%;
-    float: right;
+    width: 30%;
+    float:right;
 
 }
-.songshow-chords{
-    width: 40%;
-    margin: 0% 5% 0% 5%;
-}
-
 
 
 /*honguitos y acordes!!!!*/
@@ -68,6 +73,10 @@ aside{
 .chord{
     width: 13%;
     margin: 1% 1% 1% 1%;
+}
+.songshow-chords{
+    width: 40%;
+    margin: 0% 10% 0% 10%;
 }
 #csha{
     margin-inline-start: 5%;
@@ -81,7 +90,7 @@ aside{
 }
 
 
-
+/*el coso ppara que los acordes queden arriba de la letra!!!1!!1!!1*/
 p.song span {
     display: none;
 }
@@ -102,3 +111,9 @@ p.songshow-chords span {
 }
 
 
+/*nose no entendi para que servia esto*/
+@media only screen and (max-width: 768px){
+    .texto-centrado{
+        width: 50%;
+    }
+}
