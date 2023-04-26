@@ -1,77 +1,115 @@
 /*creo las fuentes locales que descargue de google fonts*/
 @font-face {
-    font-family: rokkitt;
-    src: url(Rokkitt-Italic-VariableFont_wght.ttf);
+    font-family: sigmar;
+    src: url(Sigmar-Regular.ttf);
 }
 @font-face {
     font-family: sen;
     src: url(Sen-Regular.ttf);
 }
 
-/*aca cambio temas de letras, colores de fondo, etc*/   
-#titulo{
-    color: rgb(24, 91, 23);
-    font-family: sen;
-    text-align: center;
-    width: 50%;
-    margin: 0% 25% 0% 25%;
-}
+
+
+/*cosas globales que uso a lo largo del codigo!!*/   
 .tc{
     font-family: sen;
-    background-color:beige;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color:rgb(216, 215, 213);
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5%;
 }  
 html{
     cursor: url(cursor.cur), auto;
 }
-h2{
-    margin-inline-start: 5%;
-}
-p{
-    margin-inline-start: 50%;
-}
 body{
-    background-color: rgb(30, 56, 21);
+    background-image: url(fond.jpg);
+}
+.tit{
+    margin-left: 15%;
 }
 
 
 
-/*honguitos y acordes!!!!*/
-#ho{
+/*acordes y titulo*/
+#titulo{
+    color: rgb(24, 91, 23);
+    font-family: sigmar;
+    text-align: center;
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+}
+#esp{
+    margin-left: 7%;
+}
+#uno{
+    display: flex;
+    flex-direction: row;
+}
+#dos{
+    display: flex;
+    flex-direction: row;
+}
+.acordes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.ac{
     width: 20%;
-    margin: 0% 40% 0% 40%;
-}   
-.chord{
-    width: 13%;
-    margin: 1% 1% 1% 1%;
-}
-.songshow-chords{
-    width: 40%;
-    margin: 0% 10% 0% 10%;
-}
-#csha{
-    margin-inline-start: 5%;
+    margin: 1% 5% 1% 5%;
 }
 
 
-/*aca hago cambios a la imagen-boton de mi novia*/
-#costado{
-    width: 60%;
-    margin: 20% 0% 20% 0%;
-    display: block;
-}   
-#hongo{
-    width: 30%;
-    float:right;
+
+/*tabs y hongos*/
+#tabhon{
+    display: flex;
+    flex-direction:row-reverse;
+}
+#tablatura{
+    width: 70%;
+    margin-left: 1%;
+}
+#tablatura img{
+    margin-left: 20%;
 }
 .tab{
-    width: 50%;
-    margin: 1% 10% 1% 10%;
+    width: 100%;
+    margin: 1%;
 }
 #intro{
-    width: 20%;
+    width: 40%;
 }
+#costado{
+    width: 30%;
+    margin: 25% 30% 45% 40%;
+}   
+#hongo{
+    width: 100%;
+}
+
+
+
+/*letra y video*/
+#letravid{
+    display: flex;
+    flex-direction: row;
+}
+#video{
+    width: 50%;
+    margin: 5% 5% 45% 0%;
+}
+iframe{
+    width: 90%;
+    height: 250%;
+}
+#letra{
+    width: 50%;
+    line-height: 110%;
+    
+}
+
 
 
 /*el coso ppara que los acordes queden arriba de la letra!!!1!!1!!1*/
@@ -91,24 +129,18 @@ p.songshow-chords span {
     text-shadow:#CCC -1px 1px;
     color:rgb(18, 82, 22);
     font-weight:bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: sen;
 }
-
-
-/*letra y video*/
-#video{
-    width: 40%;
-    float:right;
+.chord{
+    width: 13%;
+    margin: 1% 1% 1% 1%;
 }
-#takeonme{
+.songshow-chords{
     width: 80%;
-    margin: 20% 0% 20% 0%;
+    margin: 0% 0% 0% 20%;
 }
-#letra{
-    width: 44%;
-    line-height: 160%;
-    margin: 4%;
-}
+
+
 
 /*fin!!*/
 .myButton {
@@ -117,10 +149,10 @@ p.songshow-chords span {
 	background-color:#47311b;
 	border-radius:8px;
 	border:3px solid #54381e;
-	display:inline-block;
+	display: inline-block ;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Trebuchet MS;
+	font-family: sen;
 	font-size:15px;
 	padding:6px 24px;
 	text-decoration:none;
@@ -135,19 +167,121 @@ p.songshow-chords span {
 	top:1px;
     
 }
-#fin{
-    font-family: sen;
-    background-color:beige;
-    padding: 10% 25% 10% 25%;
-    width: 40%;
+.f{
     text-align: center;
-    margin: 0% 5% 5% 5%;
+    width: 40%;
+    margin: 0% 30% 2% 30%;
+    font-weight: bold;
+}
+.boto{
+    text-align: center;
+}
+#oso{
+    width: 20%;
+    margin: 5% 40% 0% 40%;
 }
 
 
-/*nose no entendi para que servia esto*/
-@media only screen and (max-width: 768px){
-    .texto-centrado{
-        width: 50%;
+
+
+/*adaptacion a movil*/
+@media only screen and (max-width: 600px){
+    #titulo{
+        color: rgb(24, 91, 23);
+        font-family: sigmar;
+        text-align: center;
+        width: 100%;
+        margin: 0% 0% 5% 0%;
+    }
+    .tit{
+        width: 80%;
+        text-align: center;
+        margin: 0% 10% 5% 10%;
+    }
+    #uno{
+        display: flex;
+        flex-direction: column;
+    }
+    #dos{
+        display: flex;
+        flex-direction: column;
+    }
+    .acordes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .ac{
+        width: 90%;
+        margin: 5% 5% 5% 5%;
+    }
+    #tabhon{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    #tablatura img{
+        margin-left: 0%;
+    }
+    #tablatura{
+        width: 80%;
+    }
+    #costado{
+        width: 20%;
+        margin: 2% 40% 2% 40%;
+    }  
+    #letravid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #video{
+        width: 80%;
+        margin: 5% 10% 5% 10%;
+    }
+    iframe{
+        width: 90%;
+        height: 120%;
+    }
+    #letra{
+        width: 100%;
+        line-height: 140%;
+        
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #titulo{
+        color: rgb(24, 91, 23);
+        font-family: sigmar;
+        text-align: center;
+        width: 100%;
+        margin: 0% 0% 5% 0%;
+    }
+    .tit{
+        width: 80%;
+        text-align: center;
+        margin: 0% 10% 5% 10%;
+    }
+    .ac{
+        width: 98%;
+        margin: 1%;
+    }
+    #video{
+        width: 80%;
+        margin: 5% 10% 5% 10%;
+    }
+    iframe{
+        width: 90%;
+        height: 120%;
+    }
+    #letra{
+        width: 90%;
+        line-height: 160%;
+        
+        
     }
 }
