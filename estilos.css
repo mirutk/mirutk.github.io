@@ -22,7 +22,7 @@ html{
     cursor: url(cursor.cur), auto;
 }
 body{
-    background-image: url(fond.jpg);
+    background-image: url(fondo\ 3.jpg);
 }
 .tit{
     margin-left: 15%;
@@ -32,7 +32,7 @@ body{
 
 /*acordes y titulo*/
 #titulo{
-    color: rgb(24, 91, 23);
+    color: rgb(48, 37, 16);
     font-family: sigmar;
     text-align: center;
     width: 50%;
@@ -284,4 +284,14 @@ p.songshow-chords span {
         
         
     }
+}
+
+#form1 {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.form-label {
+    font-weight: bold;
 }
