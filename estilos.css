@@ -13,7 +13,7 @@
 /*cosas globales que uso a lo largo del codigo!!*/   
 .tc{
     font-family: sen;
-    background-color:rgb(216, 215, 213);
+    background-color:rgb(206, 172, 154);
     margin: 5%;
     padding: 3%;
     border-radius: 5%;
@@ -22,7 +22,7 @@ html{
     cursor: url(cursor.cur), auto;
 }
 body{
-    background-image: url(fondo\ 3.jpg);
+    background-image: url(index-elementos/random/fondo\ 3.jpg);
 }
 .tit{
     margin-left: 15%;
@@ -68,7 +68,7 @@ body{
     flex-direction:row-reverse;
 }
 #tablatura{
-    width: 70%;
+    width: 80%;
     margin-left: 1%;
 }
 #tablatura img{
@@ -81,12 +81,13 @@ body{
 #intro{
     width: 40%;
 }
-#costado{
-    width: 30%;
-    margin: 25% 30% 45% 40%;
-}   
 #hongo{
-    width: 100%;
+    width: 40%;
+    margin: 30%;
+}   
+#costado{
+    width: 60%;
+    margin-left: 5%;
 }
 
 
@@ -284,14 +285,4 @@ p.songshow-chords span {
         
         
     }
-}
-
-#form1 {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.form-label {
-    font-weight: bold;
 }
