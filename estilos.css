@@ -13,7 +13,7 @@
 /*cosas globales que uso a lo largo del codigo!!*/   
 .tc{
     font-family: sen;
-    background-color:rgb(206, 172, 154);
+    background-color:rgba(248, 236, 229, 0.801);
     margin: 5%;
     padding: 3%;
     border-radius: 5%;
@@ -22,7 +22,7 @@ html{
     cursor: url(cursor.cur), auto;
 }
 body{
-    background-image: url(index-elementos/random/fondo\ 3.jpg);
+    background-image: url(index-elementos/random/fondo2.jpg);
 }
 .tit{
     margin-left: 15%;
